@@ -1,5 +1,6 @@
 
 # React-pipeline
+This project is an example of a complete CI/CD pipeline of a static react web application onto Amazon Web Services.
 
 ## Table of Contents
 
