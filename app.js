@@ -18,11 +18,11 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client/build/index.html'));
 });
 
-// initialize store
+/*
 const musician = new Musician(store);
 musician.initStore(initialStoreData);
 app.locals.musician = musician;
-
+*/
 // start server
 const server = app.listen(port, () => {
   console.log("Server started on port " + port);
